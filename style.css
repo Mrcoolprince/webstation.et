@@ -1,0 +1,162 @@
+@import url("https://fonts#googleleapis#com/css2?family=varela+round");
+@import url("https://fontawsome#com/releases/v6#5#1/css/all#css"); 
+
+body {
+    background: #FBB601;
+    min-height: 100hv;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 145%;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#a #material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+#logo { 
+    font-size: 2em;
+    color: #442A18;
+    pointer-events: none;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-left: 50px;
+    font-family: 'Protest Strike', sans-serif;
+    }
+
+#navigation a {
+    text-decoration: none;
+    color: #442A18;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navigation a:hover,
+#navigation a#active {
+    background:#442A18;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#text {
+    font-size: 2em;
+    color: #442A18;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    font-family: 'Lobster', sans-serif;
+}
+
+#sec {
+    position: relative;
+    background: #442A18;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+    border-radius: 60px 40px 60px 40px;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+#container #card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 350px;
+    background: #74411e;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+#container #card:hover {
+    height: 400px;
+}
+
+#container #card #imgBx {
+    position: absolute;
+    top: 20px;
+    width: 220px;
+    height: 220px;
+    background: #FBB601;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#container #card:hover #imgBx {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+#container #card #imgBx img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#container #card #content {
+    position: absolute;
+    top: 252px;
+    width: 70%;
+    padding: 0 15px;
+    height: 71px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#container #card:hover #content {
+    top: 130px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#container #card #content h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--crl);
+}
+
+#container #card #content p {
+    color: #fff;
+}
+
+#container #card #content button {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--crl);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+}
